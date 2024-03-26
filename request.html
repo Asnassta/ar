@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	<link rel="icon" href="favicon.ico">
+	<title>AvtoREVIZORRO</title>
+</head>
+<body>
+	<!--Sprite-->
+	<svg style="display: none;">
+		<symbol id="logo-icon" viewBox="0 0 362.982 30.0293">
+			<g>
+				<path id="Vector" d="M346.943 23.2832C348.404 23.2832 349.714 22.9375 350.904 22.2598C352.078 21.5664 353.012 20.6016 353.705 19.3672C354.398 18.1016 354.729 16.6562 354.729 15.0449C354.729 13.418 354.383 11.9883 353.705 10.7539C353.012 9.48828 352.078 8.50977 350.904 7.83203C349.729 7.13867 348.404 6.80664 346.943 6.80664C345.482 6.80664 344.172 7.1543 342.982 7.83203C341.807 8.52344 340.874 9.48828 340.181 10.7539C339.488 11.9883 339.157 13.418 339.157 15.0449C339.157 16.6719 339.503 18.1016 340.181 19.3672C340.874 20.6016 341.807 21.5664 342.982 22.2598C344.172 22.9375 345.497 23.2832 346.943 23.2832ZM346.943 30.0293C343.885 30.0293 341.145 29.3828 338.705 28.0879C336.28 26.793 334.383 25.0156 332.982 22.7266C331.611 20.4512 330.919 17.877 330.919 15.0156C330.919 12.1543 331.611 9.59375 332.982 7.30469C334.383 5.0293 336.295 3.23828 338.705 1.94336C341.145 0.648438 343.901 0 346.943 0C349.985 0 352.726 0.648438 355.151 1.94336C357.59 3.23828 359.503 5.01562 360.873 7.30469C362.274 9.57812 362.982 12.1543 362.982 15.0156C362.982 17.877 362.289 20.4375 360.873 22.7266C359.503 25 357.59 26.793 355.151 28.0879C352.726 29.3984 350 30.0293 346.943 30.0293ZM319.654 11.2793C319.654 9.93945 319.232 8.88477 318.373 8.14844C317.515 7.41016 316.265 7.0332 314.578 7.0332L310.045 7.0332L310.045 15.4824L314.578 15.4824C316.25 15.4824 317.515 15.1211 318.373 14.4121C319.232 13.6738 319.654 12.6348 319.654 11.2793ZM314.503 21.793L310.045 21.793L310.045 29.457L301.883 29.457L301.883 0.601562L315.075 0.601562C317.681 0.601562 319.955 1.03906 321.883 1.92773C323.81 2.78711 325.286 4.02148 326.34 5.63281C327.38 7.22852 327.907 9.11133 327.907 11.2793C327.907 13.373 327.41 15.1953 326.416 16.7617C325.452 18.2988 324.066 19.5039 322.259 20.3906L328.479 29.457L319.744 29.457L314.503 21.793ZM289.142 11.2793C289.142 9.93945 288.72 8.88477 287.861 8.14844C287.003 7.41016 285.753 7.0332 284.066 7.0332L279.533 7.0332L279.533 15.4824L284.066 15.4824C285.738 15.4824 287.003 15.1211 287.861 14.4121C288.72 13.6738 289.142 12.6348 289.142 11.2793ZM283.991 21.793L279.533 21.793L279.533 29.457L271.37 29.457L271.37 0.601562L284.563 0.601562C287.169 0.601562 289.443 1.03906 291.37 1.92773C293.298 2.78711 294.774 4.02148 295.828 5.63281C296.867 7.22852 297.395 9.11133 297.395 11.2793C297.395 13.373 296.898 15.1953 295.904 16.7617C294.94 18.2988 293.554 19.5039 291.747 20.3906L297.967 29.457L289.232 29.457L283.991 21.793ZM251.069 23.2832C252.53 23.2832 253.84 22.9375 255.03 22.2598C256.205 21.5664 257.139 20.6016 257.831 19.3672C258.524 18.1016 258.855 16.6562 258.855 15.0449C258.855 13.418 258.509 11.9883 257.831 10.7539C257.139 9.48828 256.205 8.50977 255.03 7.83203C253.855 7.13867 252.53 6.80664 251.069 6.80664C249.608 6.80664 248.298 7.1543 247.108 7.83203C245.934 8.52344 245 9.48828 244.307 10.7539C243.614 11.9883 243.283 13.418 243.283 15.0449C243.283 16.6719 243.63 18.1016 244.307 19.3672C245 20.6016 245.934 21.5664 247.108 22.2598C248.298 22.9375 249.608 23.2832 251.069 23.2832ZM251.069 30.0293C248.012 30.0293 245.271 29.3828 242.831 28.0879C240.407 26.793 238.509 25.0156 237.108 22.7266C235.738 20.4512 235.045 17.877 235.045 15.0156C235.045 12.1543 235.738 9.59375 237.108 7.30469C238.509 5.0293 240.422 3.23828 242.831 1.94336C245.271 0.648438 248.027 0 251.069 0C254.127 0 256.852 0.648438 259.277 1.94336C261.717 3.23828 263.63 5.01562 265 7.30469C266.401 9.57812 267.108 12.1543 267.108 15.0156C267.108 17.877 266.416 20.4375 265 22.7266C263.63 25 261.717 26.793 259.277 28.0879C256.852 29.3984 254.127 30.0293 251.069 30.0293ZM233.193 22.9824L233.193 29.457L207.349 29.457L207.349 24.3516L221.898 7.07812L207.726 7.07812L207.726 0.601562L232.575 0.601562L232.575 5.70703L218.027 22.9824L233.193 22.9824ZM194.819 0.601562L202.982 0.601562L202.982 29.457L194.819 29.457L194.819 0.601562ZM193.133 0.601562L180.768 29.457L172.726 29.457L160.407 0.601562L169.232 0.601562L177.063 19.3984L185.06 0.601562L193.133 0.601562ZM159.744 23.1484L159.744 29.457L136.581 29.457L136.581 0.601562L159.217 0.601562L159.217 6.91211L144.669 6.91211L144.669 11.7773L157.485 11.7773L157.485 17.877L144.669 17.877L144.669 23.1484L159.744 23.1484ZM123.825 11.2793C123.825 9.93945 123.404 8.88477 122.545 8.14844C121.687 7.41016 120.437 7.0332 118.75 7.0332L114.217 7.0332L114.217 15.4824L118.75 15.4824C120.422 15.4824 121.687 15.1211 122.545 14.4121C123.404 13.6738 123.825 12.6348 123.825 11.2793ZM118.675 21.793L114.217 21.793L114.217 29.457L106.054 29.457L106.054 0.601562L119.247 0.601562C121.852 0.601562 124.126 1.03906 126.054 1.92773C127.982 2.78711 129.458 4.02148 130.512 5.63281C131.551 7.22852 132.078 9.11133 132.078 11.2793C132.078 13.373 131.581 15.1953 130.587 16.7617C129.624 18.2988 128.238 19.5039 126.431 20.3906L132.651 29.457L123.916 29.457L118.675 21.793ZM89.4579 23.6152C90.8284 23.6152 91.9578 23.1484 92.8313 22.2129C93.7048 21.25 94.1566 19.9395 94.1566 18.2539C94.1566 16.5957 93.7198 15.3164 92.8313 14.3828C91.9578 13.4492 90.8284 12.9824 89.4579 12.9824C88.0874 12.9824 86.9579 13.4492 86.0844 14.3828C85.2108 15.3164 84.759 16.6113 84.759 18.2539C84.759 19.9238 85.1958 21.25 86.0844 22.2129C86.9579 23.1484 88.0723 23.6152 89.4579 23.6152ZM89.4579 29.834C87.0632 29.834 84.9097 29.3379 82.9819 28.3438C81.0542 27.3496 79.5482 25.9785 78.4487 24.2168C77.3795 22.4551 76.8374 20.4668 76.8374 18.2383C76.8374 16.0391 77.3645 14.0664 78.4487 12.3047C79.5482 10.543 81.0392 9.1875 82.9368 8.22266C84.8645 7.22852 87.0331 6.73242 89.4427 6.73242C91.8674 6.73242 94.0361 7.22852 95.9487 8.22266C97.8916 9.20117 99.3826 10.5566 100.452 12.3184C101.521 14.0508 102.063 16.0234 102.063 18.2539C102.063 20.4824 101.521 22.4707 100.452 24.2324C99.3826 25.9941 97.8765 27.3652 95.9639 28.3594C94.0361 29.3379 91.8674 29.834 89.4579 29.834ZM75.8735 28.5547C75.2108 28.9609 74.3976 29.2773 73.4489 29.5039C72.515 29.7285 71.506 29.834 70.4368 29.834C67.5302 29.834 65.2861 29.127 63.7198 27.6953C62.1536 26.2656 61.3705 24.1406 61.3705 21.3105L61.3705 13.7949L58.1174 13.7949L58.1174 7.95117L61.3705 7.95117L61.3705 2.13867L69.2018 2.13867L69.2018 7.95117L74.3073 7.95117L74.3073 13.8105L69.2018 13.8105L69.2018 21.2344C69.2018 22.0332 69.4126 22.666 69.8193 23.1328C70.256 23.5684 70.8434 23.7949 71.5511 23.7949C72.4548 23.7949 73.2531 23.5547 73.9458 23.0879L75.8735 28.5547ZM57.8163 7.12305L48.5844 29.457L40.5121 29.457L31.3253 7.12305L39.3674 7.12305L44.7289 20.7676L50.3765 7.12305L57.8163 7.12305ZM20.4066 17.832L16.7018 8.59961L12.9969 17.832L20.4066 17.832ZM22.8011 23.8555L10.6024 23.8555L8.32837 29.457L0 29.457L12.741 0.601562L20.7831 0.601562L33.5542 29.457L25.0602 29.457L22.8011 23.8555Z" fill-opacity="1.000000" fill-rule="nonzero"/>
+			</g>
+		</symbol>
+		<symbol id="arrow-icon" viewBox="0 0 18.7572 14.7571">
+			<g>
+				<path id="Vector 4" d="M0 7.37854L17 7.37854M10.5778 13.8785L17 7.37854L10.5778 0.87854" stroke-opacity="1.000000" stroke-width="2.500000"/>
+			</g>
+		</symbol>
+		<symbol id="plus-icon" viewBox="0 0 16 16">
+			<g>
+				<rect x="7" width="2" height="16"/>
+				<rect x="16" y="7" width="2" height="16" transform="rotate(90 16 7)" />
+			</g>
+		</symbol>
+		<symbol id="play-icon" viewBox="0 0 17 20">
+			<g>
+				<path d="M17 10L0.499999 19.5263L0.5 0.47372L17 10Z"/>
+			</g>
+		</symbol>
+		<symbol id="arrow-long" viewBox="0 0 208 55">
+			<g>
+				<path d="M208 27.5H3M3 27.5L28.5 2M3 27.5L28.5 53" stroke-width="3"/>
+			</g>
+		</symbol>
+		<symbol id="arrow-long_r" viewBox="0 0 104 55">
+			<g>
+				<path d="M208 27.5H3M3 27.5L28.5 2M3 27.5L28.5 53" stroke-width="3"/>
+			</g>
+		</symbol>
+		<symbol id="arrow-long_xx" viewBox="0 0 498 55">
+			<g>
+				<path d="M0 27.5H495M495 27.5L469.5 2M495 27.5L469.5 53" stroke-width="3"/>
+			</g>
+		</symbol>
+		<symbol id="tg-icon" viewBox="0 0 23 23">
+			<g>
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M1.58113 9.90135C7.75513 6.65552 11.8721 4.51567 13.932 3.4818C19.8136 0.529891 21.0357 0.0171128 21.8323 0.000180535C22.0075 -0.00354352 22.3992 0.0488489 22.6529 0.297298C22.8672 0.507084 22.9262 0.790475 22.9544 0.989374C22.9826 1.18827 23.0177 1.64137 22.9898 1.99541C22.6711 6.03635 21.2919 15.8426 20.5903 20.3686C20.2935 22.2836 19.7089 22.9258 19.143 22.9886C17.9131 23.1252 16.9792 22.0078 15.788 21.0656C13.924 19.5912 12.8709 18.6734 11.0616 17.2347C8.97061 15.572 10.3261 14.6581 11.5178 13.1646C11.8296 12.7738 17.2485 6.82622 17.3534 6.28669C17.3665 6.21921 17.3787 5.96768 17.2549 5.83487C17.131 5.70205 16.9483 5.74747 16.8164 5.78359C16.6294 5.83479 13.6517 8.20974 7.88309 12.9084C7.03787 13.6088 6.27229 13.95 5.58635 13.9321C4.83017 13.9124 3.37557 13.4162 2.29422 12.9921C0.967909 12.4718 -0.0862189 12.1968 0.00557197 11.3133C0.0533823 10.8531 0.578568 10.3824 1.58113 9.90135Z"/>
+			</g>
+		</symbol>
+		<symbol id="inst-icon" viewBox="0 0 25 25">
+			<g>
+				<path d="M24.8568 7.41817C24.7992 6.14125 24.5929 5.26756 24.3003 4.50429C23.9932 3.71702 23.5854 3.04495 22.9186 2.38249C22.2517 1.72002 21.5849 1.30238 20.7981 0.999954C20.0352 0.702326 19.1621 0.500706 17.8859 0.443101C16.605 0.385495 16.1972 0.371094 12.9444 0.371094C9.68686 0.371094 9.27906 0.385495 8.00291 0.443101C6.72675 0.500706 5.85359 0.707126 5.09078 0.999954C4.29917 1.30718 3.62751 1.71522 2.96545 2.38249C2.30338 3.04975 1.88599 3.71702 1.58374 4.50429C1.29109 5.26756 1.0848 6.14125 1.02722 7.41817C0.969654 8.69989 0.955261 9.10793 0.955261 12.3626C0.955261 15.6222 0.969654 16.0302 1.02722 17.3071C1.0848 18.584 1.29109 19.4577 1.58374 20.221C1.89079 21.0083 2.29858 21.6803 2.96545 22.3428C3.62751 23.0101 4.29917 23.4229 5.08598 23.7253C5.84879 24.023 6.72195 24.2246 7.99811 24.2822C9.27906 24.3398 9.68686 24.3542 12.9396 24.3542C16.1972 24.3542 16.605 24.3398 17.8811 24.2822C19.1573 24.2246 20.0304 24.0182 20.7933 23.7253C21.5801 23.4181 22.2517 23.0101 22.9138 22.3428C23.5758 21.6755 23.9932 21.0083 24.2955 20.221C24.5929 19.4577 24.7944 18.584 24.852 17.3071C24.9096 16.0254 24.924 15.6174 24.924 12.3626C24.924 9.10793 24.9144 8.69509 24.8568 7.41817ZM22.7027 17.2111C22.6499 18.3824 22.4532 19.0209 22.2901 19.4385C22.0742 19.9954 21.8103 20.3986 21.3882 20.8211C20.966 21.2435 20.5678 21.4979 20.0065 21.7235C19.5843 21.8868 18.9462 22.0836 17.7804 22.1364C16.5186 22.194 16.1396 22.2084 12.9348 22.2084C9.73003 22.2084 9.35103 22.194 8.08926 22.1364C6.91865 22.0836 6.28057 21.8868 5.86318 21.7235C5.30667 21.5075 4.90367 21.2435 4.48148 20.8211C4.0593 20.3986 3.80502 20.0002 3.57954 19.4385C3.41642 19.0161 3.21972 18.3776 3.16695 17.2111C3.10937 15.9486 3.09498 15.5694 3.09498 12.3626C3.09498 9.15594 3.10937 8.7767 3.16695 7.51418C3.21972 6.34287 3.41642 5.70441 3.57954 5.28677C3.79543 4.72991 4.0593 4.32667 4.48148 3.90423C4.90367 3.48179 5.30187 3.22737 5.86318 3.00175C6.28537 2.83853 6.92345 2.64171 8.08926 2.58891C9.35103 2.5313 9.73003 2.5169 12.9348 2.5169C16.1396 2.5169 16.5186 2.5313 17.7804 2.58891C18.951 2.64171 19.5891 2.83853 20.0065 3.00175C20.563 3.21777 20.966 3.48179 21.3882 3.90423C21.8103 4.32667 22.0646 4.72511 22.2901 5.28677C22.4532 5.70921 22.6499 6.34767 22.7027 7.51418C22.7603 8.7767 22.7747 9.15594 22.7747 12.3626C22.7747 15.5694 22.7555 15.9486 22.7027 17.2111Z"/>
+				<path d="M12.9349 6.19922C9.52861 6.19922 6.7748 8.95948 6.7748 12.363C6.7748 15.7713 9.5334 18.5268 12.9349 18.5268C16.3364 18.5268 19.095 15.7617 19.095 12.363C19.095 8.95468 16.3412 6.19922 12.9349 6.19922ZM12.9349 16.3618C10.728 16.3618 8.9385 14.5712 8.9385 12.363C8.9385 10.1548 10.728 8.36423 12.9349 8.36423C15.1418 8.36423 16.9313 10.1548 16.9313 12.363C16.9313 14.5712 15.1418 16.3618 12.9349 16.3618Z"/>
+				<path d="M19.3348 7.39883C20.1297 7.39883 20.7741 6.75406 20.7741 5.95869C20.7741 5.16333 20.1297 4.51855 19.3348 4.51855C18.5399 4.51855 17.8956 5.16333 17.8956 5.95869C17.8956 6.75406 18.5399 7.39883 19.3348 7.39883Z"/>
+				<path d="M0.940857 12.3626C0.940857 15.6222 0.95525 16.0302 1.01282 17.3071C1.07039 18.584 1.27669 19.4577 1.56934 20.221C1.87638 21.0083 2.28418 21.6803 2.95104 22.3428C3.61311 23.0053 4.28477 23.4229 5.07157 23.7253C5.83439 24.023 6.70755 24.2246 7.9837 24.2822C9.26466 24.3398 9.67245 24.3542 12.9252 24.3542C16.1828 24.3542 16.5906 24.3398 17.8667 24.2822C19.1429 24.2246 20.016 24.0182 20.7788 23.7253C21.5657 23.4181 22.2373 23.0101 22.8994 22.3428C23.5614 21.6803 23.9788 21.0083 24.2811 20.221C24.5785 19.4577 24.78 18.584 24.8376 17.3071C24.8952 16.0254 24.9096 15.6174 24.9096 12.3626C24.9096 9.10313 24.8952 8.69509 24.8376 7.41817C24.78 6.14125 24.5737 5.26756 24.2811 4.50429C23.974 3.71702 23.5662 3.04495 22.8994 2.38249C22.2421 1.71522 21.5704 1.30238 20.7836 0.999954C20.0208 0.702326 19.1477 0.500706 17.8715 0.443101C16.5906 0.385495 16.1828 0.371094 12.93 0.371094C9.67245 0.371094 9.26466 0.385495 7.9885 0.443101C6.71235 0.500706 5.83919 0.707126 5.07637 0.999954C4.28957 1.30718 3.61791 1.71522 2.95584 2.38249C2.29377 3.04975 1.87638 3.71702 1.57414 4.50429C1.27669 5.26756 1.07039 6.14125 1.01282 7.41817C0.95525 8.69509 0.940857 9.10313 0.940857 12.3626ZM3.10457 12.3626C3.10457 9.16074 3.11896 8.7767 3.17653 7.51418C3.2293 6.34287 3.426 5.70441 3.58912 5.28677C3.80501 4.72991 4.06888 4.32667 4.49107 3.90423C4.91325 3.48179 5.31145 3.22737 5.87277 3.00175C6.29496 2.83853 6.93303 2.64171 8.09885 2.58891C9.36061 2.5313 9.73962 2.5169 12.9444 2.5169C16.1492 2.5169 16.5282 2.5313 17.79 2.58891C18.9606 2.64171 19.5986 2.83853 20.016 3.00175C20.5726 3.21777 20.9755 3.48179 21.3977 3.90423C21.8199 4.32667 22.0742 4.72511 22.2997 5.28677C22.4628 5.70921 22.6595 6.34767 22.7123 7.51418C22.7698 8.7767 22.7842 9.15594 22.7842 12.3626C22.7842 15.5694 22.7698 15.9486 22.7123 17.2111C22.6595 18.3824 22.4628 19.0209 22.2997 19.4385C22.0838 19.9954 21.8199 20.3986 21.3977 20.8211C20.9755 21.2435 20.5774 21.4979 20.016 21.7235C19.5938 21.8868 18.9558 22.0836 17.79 22.1364C16.5282 22.194 16.1492 22.2084 12.9444 22.2084C9.73962 22.2084 9.36061 22.194 8.09885 22.1364C6.92824 22.0836 6.29016 21.8868 5.87277 21.7235C5.31625 21.5075 4.91325 21.2435 4.49107 20.8211C4.06888 20.3986 3.81461 20.0002 3.58912 19.4385C3.426 19.0161 3.2293 18.3776 3.17653 17.2111C3.11416 15.9486 3.10457 15.5646 3.10457 12.3626Z"/>
+			</g>
+		</symbol>
+		<symbol id="telegram-icon" viewBox="0 0 25 25">
+			<g>
+
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M5.81522 12.2359C9.311 10.7128 11.6421 9.70875 12.8084 9.22362C16.1386 7.83849 16.8306 7.59787 17.2816 7.58993C17.3808 7.58818 17.6026 7.61277 17.7463 7.72935C17.8676 7.82778 17.901 7.96076 17.917 8.05409C17.9329 8.14742 17.9528 8.36003 17.937 8.52616C17.7565 10.4223 16.9757 15.0237 16.5784 17.1475C16.4103 18.0461 16.0793 18.3474 15.7589 18.3769C15.0625 18.441 14.5337 17.9167 13.8593 17.4745C12.8039 16.7827 12.2076 16.352 11.1832 15.6769C9.99922 14.8967 10.7667 14.4679 11.4414 13.7671C11.618 13.5837 14.6863 10.7929 14.7456 10.5398C14.7531 10.5081 14.76 10.3901 14.6898 10.3278C14.6197 10.2654 14.5162 10.2868 14.4416 10.3037C14.3357 10.3277 12.6497 11.4421 9.38345 13.6469C8.90488 13.9755 8.4714 14.1357 8.08302 14.1273C7.65486 14.118 6.83125 13.8852 6.21898 13.6862C5.46801 13.442 4.87115 13.313 4.92312 12.8984C4.95019 12.6825 5.24756 12.4616 5.81522 12.2359Z"/>
+			</g>
+		</symbol>
+		<symbol id="yt-icon" viewBox="0 0 30 30">
+				<g clip-path="url(#clip0_1297_9343)">
+					<path d="M28.7265 8.26367C28.398 7.04377 27.4362 6.08193 26.2163 5.7535C23.9876 5.14355 15.073 5.14355 15.073 5.14355C15.073 5.14355 6.15843 5.14355 3.92978 5.73004C2.73335 6.05847 1.74805 7.04377 1.41962 8.26367C0.83313 10.4923 0.83313 15.1138 0.83313 15.1138C0.83313 15.1138 0.83313 19.7588 1.41962 21.964C1.74805 23.1839 2.70989 24.1457 3.92978 24.4742C6.18189 25.0841 15.073 25.0841 15.073 25.0841C15.073 25.0841 23.9876 25.0841 26.2163 24.4976C27.4362 24.1692 28.398 23.2074 28.7265 21.9875C29.3129 19.7588 29.3129 15.1373 29.3129 15.1373C29.3129 15.1373 29.3364 10.4923 28.7265 8.26367Z"/>
+					<path d="M12.2344 19.383L19.6476 15.1134L12.2344 10.8438V19.383Z"/>
+				</g>
+		</symbol>
+	</svg>
+	<!--/sprite-->
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a href="/" class="header__logo">
+						<svg>
+							<use xlink:href="#logo-icon"></use>
+						</svg>
+					</a>
+					<div class="header__menu">
+						<div class="header__menu-inner">
+							<div class="header__close">
+								<img src="assets/images/close.svg" alt="">
+								<span>Закрыть</span>
+							</div>
+							<nav class="header__nav">
+								<a href="order.html" class="header__link">
+									<span>Заказ авто из Германии</span>
+								</a>
+								<a href="cars.html" class="header__link">
+									<span>Автомобили в наличии </span>
+								</a>
+								<a href="check.html" class="header__link">
+									<span>Проверка автомобиля </span>
+								</a>
+								<a href="service.html" class="header__link">
+									<span>Сервис BMW</span>
+								</a>
+								<div class="header__buttons">
+									<a href="contact.html" class="header__btn">
+										<span>Контакты</span>
+										<span>
+											<svg>
+												<use xlink:href="#arrow-icon"></use>
+											</svg>
+										</span>
+									</a>
+								</div>
+							</nav>
+						</div>
+					</div>
+					<div class="header__burger">
+						<img src="assets/images/burger.svg" alt="">
+						<span>Меню</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="contact section">
+				<div class="container container_min">
+					<h1 class="title-main">Заявка на<br> подбор</h1>
+					<div class="contact__inner">
+						<div class="contact__sideblock">
+							<div class="contact__description">Пожалуйста заполните форму и мы свяжемся с вами в течении рабочего дня, если заявка и бюджет позволят выполнить задачу.</div>
+						</div>
+						<div class="contact__content">
+							<form action="#" class="form">
+								<div class="form__inner">
+									<div class="form__item form__item_half">
+										<div class="form-input">
+											<input type="text" placeholder="" id="name">
+											<label for="name">Вас зовут<span>*</span></label>
+											<div class="form-input__error">Ошибка! Не указано имя</div>
+										</div>
+									</div>
+									<div class="form__item form__item_half">
+										<div class="form-radio">
+											<div class="form-radio__name">Я</div>
+											<div class="form-radio__item">
+												<input type="radio" name="status" id="status_j" checked>
+												<label for="status_j">
+													<span class="form-radio__box"></span>
+													<span class="form-radio__description">физ. лицо</span>
+												</label>
+											</div>
+											<div class="form-radio__item">
+												<input type="radio" name="status" id="status_f">
+												<label for="status_f">
+													<span class="form-radio__box"></span>
+													<span class="form-radio__description">юр. лицо</span>
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="form__item form__item_half">
+										<div class="form-input">
+											<input type="text" placeholder="+7 (      )      —     —" id="phone">
+											<label for="phone">Номер телефона<span>*</span><span class="brown">whatsup</span></label>
+											<div class="form-input__error">Ошибка! Не указан номер</div>
+										</div>
+									</div>
+									<div class="form__item form__item_half">
+										<div class="form-input">
+											<input type="text" placeholder="" id="city">
+											<label for="city">Город</label>
+										</div>
+									</div>
+									<div class="form__item  form__item_half">
+										<div class="selectbox">
+											<div class="selectbox__label">Марка автомобиля<span>*</span><span class="mobile-none">в чем мы хороши</span></div>
+											<div class="selectbox__select">
+												<span></span>
+											</div>
+											<div class="selectbox__dropdown">
+												<div class="selectbox__inner">
+													<div class="selectbox__option">
+														<span>BMW</span>
+													</div>
+													<div class="selectbox__option">
+														<span>BMW</span>
+													</div>
+													<div class="selectbox__option">
+														<span>BMW</span>
+													</div>
+												</div>
+											</div>
+										</div><!--/selectbox-->
+									</div>
+									<div class="form__item form__item_half">
+										<div class="form-input">
+											<input type="text" placeholder="" id="model">
+											<label for="model">Желаемая модель</label>
+										</div>
+									</div>
+									<div class="form__item form__item_half">
+										<div class="form-input">
+											<input type="text" placeholder="" id="mileage">
+											<label for="mileage">Пробег максимальный<span>*</span><span class="brown">тыс. км.</span></label>
+											<div class="form-input__error">Ошибка! Не указан пробег</div>
+										</div>
+									</div>
+									<div class="form__item form__item_half">
+										<div class="form-input">
+											<input type="text" placeholder="" id="budget">
+											<label for="budget">Бюджет<span>*</span></label>
+											<div class="form-input__error">Ошибка! Не указан бюджет</div>
+										</div>
+									</div>
+									<div class="form__item">
+										<div class="form-input">
+											<textarea name="message"></textarea >
+											<label for="message">Ссылки на mobile.de<span>*</span><span class="brown">можно списком</span></label>
+										</div>
+									</div>
+									<div class="form__item">
+										<div class="form-radio form-radio_big">
+											<div class="form-radio__name">Возраст автомобиля<span>*</span></div>
+											<div class="form-radio__item">
+												<input type="radio" name="age" id="age_new" checked>
+												<label for="age_new">
+													<span class="form-radio__box"></span>
+													<span class="form-radio__description">Новый</span>
+												</label>
+											</div>
+											<div class="form-radio__item">
+												<input type="radio" name="age" id="age_3">
+												<label for="age_3">
+													<span class="form-radio__box"></span>
+													<span class="form-radio__description">до 3-х лет</span>
+												</label>
+											</div>
+											<div class="form-radio__item">
+												<input type="radio" name="age" id="age_5">
+												<label for="age_5">
+													<span class="form-radio__box"></span>
+													<span class="form-radio__description form-radio__description_sub">3—5 лет<span>оптимально по таможне</span></span>
+												</label>
+											</div>
+											<div class="form-radio__item">
+												<input type="radio" name="age" id="age_old">
+												<label for="age_old">
+													<span class="form-radio__box"></span>
+													<span class="form-radio__description">Старше 5</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form__description"><span>*</span>обязательные поля</div>
+								<div class="form__option">
+									<h2 class="title-small mb-50">Обязательные опции</h2>
+									<div class="form__option-inner">
+										<div class="form__option-col">
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_1">
+												<label for="option_1">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Адаптив LED (или лазеры, матричные)</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_2" checked>
+												<label for="option_2">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Адаптивная подвеска</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_3">
+												<label for="option_3">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Ассистенты вождения</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_4">
+												<label for="option_4">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Вентиляция сидений</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_5">
+												<label for="option_5">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Доводчики</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_6">
+												<label for="option_6">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Индивидуальные линии отделки</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_7">
+												<label for="option_7">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Камеры 360</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_8">
+												<label for="option_8">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">М обвес (S-line и т.п.)</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_9">
+												<label for="option_9">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Массаж сидений</span>
+												</label>
+											</div><!--/checkbox-->
+										</div>
+										<div class="form__option-col">
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_10">
+												<label for="option_10">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Панорама</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_11">
+												<label for="option_11">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Пневма</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_12">
+												<label for="option_12">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Подогрев руля</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_13">
+												<label for="option_13">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Полный привод</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_14">
+												<label for="option_14">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Проекция</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_15">
+												<label for="option_15">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Расширенная кожа</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_16">
+												<label for="option_16">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Топовая музыка</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_17">
+												<label for="option_17">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Фаркоп</span>
+												</label>
+											</div><!--/checkbox-->
+											<div class="checkbox">
+												<input type="checkbox" name="option" id="option_18">
+												<label for="option_18">
+													<span class="checkbox__box"></span>
+													<span class="checkbox__description">Электросидения</span>
+												</label>
+											</div><!--/checkbox-->
+										</div>
+									</div>
+								</div>
+								<div class="form__row">
+									<div class="form-argee">
+										<div class="checkbox">
+											<input type="checkbox" id="form-agree">
+											<label for="form-agree">
+												<span class="checkbox__box"></span>
+												<span class="checkbox__description">Принимаю <a href="#">условия обработки</a> персональных данных<span>*</span></span>
+											</label>
+										</div>
+									</div>
+									<button type="submit" class="btn">
+										<span>Отправить</span>
+										<span>
+											<svg>
+												<use xlink:href="#arrow-icon"></use>
+											</svg>
+										</span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section><!--/contact-->
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__contact">
+					<a href="/" class="footer__logo">
+						<img src="assets/images/logo.svg" alt="">
+					</a>
+					<div class="footer__address">
+						<div class="footer__address-desc">
+							<span>Москва</span> ул. Лобачевского 110, к. 1
+						</div>
+						<a href="https://yandex.ru/maps/org/bmv_servis_smirnova/231468384403/?from=mapframe&ll=37.477049%2C55.690359&z=17" class="footer__address-map">карта проезда</a>
+					</div>
+					<div class="footer__mail">
+						<a href="mailto:avtorevizorro@mail.ru">avtorevizorro@mail.ru</a>
+					</div>
+					<div class="footer__phone">
+						<a href="tel:+74992292100">+7 499 229—2100</a>
+						<span>Ежедневно с 10:00 до 21:00</span>
+					</div>
+				</div>
+				<div class="footer__menu">
+					<div class="footer__social">
+						<a href="#" target="blank">
+							<svg>
+								<use xlink:href="#inst-icon"></use>
+							</svg>
+						</a>
+						<a href="#" target="blank">
+							<svg>
+								<use xlink:href="#telegram-icon"></use>
+							</svg>
+						</a>
+						<a href="#" target="blank">
+							<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_1297_9343)">
+								<path d="M28.7265 8.26367C28.398 7.04377 27.4362 6.08193 26.2163 5.7535C23.9876 5.14355 15.073 5.14355 15.073 5.14355C15.073 5.14355 6.15843 5.14355 3.92978 5.73004C2.73335 6.05847 1.74805 7.04377 1.41962 8.26367C0.83313 10.4923 0.83313 15.1138 0.83313 15.1138C0.83313 15.1138 0.83313 19.7588 1.41962 21.964C1.74805 23.1839 2.70989 24.1457 3.92978 24.4742C6.18189 25.0841 15.073 25.0841 15.073 25.0841C15.073 25.0841 23.9876 25.0841 26.2163 24.4976C27.4362 24.1692 28.398 23.2074 28.7265 21.9875C29.3129 19.7588 29.3129 15.1373 29.3129 15.1373C29.3129 15.1373 29.3364 10.4923 28.7265 8.26367Z"/>
+								<path d="M12.2344 19.383L19.6476 15.1134L12.2344 10.8438V19.383Z"/>
+								</g>
+								<defs>
+								<clipPath id="clip0_1297_9343">
+								<rect x="0.83313" y="0.87207" width="28.4799" height="28.4799" rx="5.33999" fill="white"/>
+								</clipPath>
+								</defs>
+							</svg>
+						</a>
+					</div>
+					<div class="footer__links">
+						<a href="#" class="footer__link">Заказ авто из Германии</a>
+						<a href="#" class="footer__link">Автомобили в наличии </a>
+						<a href="#" class="footer__link">Проверка автомобиля </a>
+						<a href="#" class="footer__link">Сервис BMW</a>
+						<a href="#" class="footer__btn">
+							<span>Контакты</span>
+							<span>
+								<svg>
+									<use xlink:href="#arrow-icon"></use>
+								</svg>
+							</span>
+						</a>
+					</div>
+					<a href="/" class="footer__logo">
+						<img src="assets/images/logo.svg" alt="">
+					</a>
+				</div>
+				<div class="footer__copyright">
+					<span>© АвтоРевизорро 2024</span>
+					<span>
+						Дизайн  —
+						<a href="https://www.vadimprusakov.pro/" target="blank">  Бюро Вадима Прусакова </a>
+					</span>
+				</div>
+			</div>
+		</footer><!--/footer-->
+	</div>
+
+	<div class="popup popup-cars">
+		<div class="closex"></div>
+		<div class="popup__inner">
+			<div class="page-slider">
+				<div class="slider-arrows">
+					<div class="slider-arrow slider-arrow_prev">
+						<svg>
+							<use xlink:href="#arrow-long"></use>
+						</svg>
+					</div>
+					<div class="slider-arrow slider-arrow_next">
+						<svg>
+							<use xlink:href="#arrow-long"></use>
+						</svg>
+					</div>
+				</div><!--/slider-arrows-->
+				<div class="page-slider__header">
+					<div class="page-slider__info">
+						<div class="page-slider__title">BMW X5 30d xDrive</div>
+						<div class="page-slider__subtitle">2023 рестайлинг</div>
+					</div>
+					<div class="popup__close">
+						<a href="#" class="btn-plus">
+							<svg>
+								<use xlink:href="#plus-icon"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="page-slider-main swiper">
+					<div class="swiper-wrapper">
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+						<div class="page-slider__slide swiper-slide">
+							<img src="assets/images/car_1.png" alt="">
+						</div><!--/page-slider__slide-->
+					</div>
+					
+				</div><!--/page-slider-main-->
+				<div class="page-slider__nav">
+					<div class="page-slider-min swiper">
+						<div class="swiper-wrapper">
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+							<div class="page-slider-min__slide swiper-slide">
+								<img src="assets/images/car_1.png" alt="">
+							</div><!--/page-slider__slide-->
+						</div>
+					</div><!--/page-slider-min-->
+				</div>
+			</div><!--/page-slider-->
+		</div>
+	</div><!--/popup-cars-->
+
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/jquery.formstyler.min.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
