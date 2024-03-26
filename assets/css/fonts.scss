@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Aeonik Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:   url('../fonts/Aeonik Pro Light.woff2') format('woff2'),
+  url('../fonts/Aeonik Pro Light.woff') format('woff'),
+  url('../fonts/Aeonik Pro Light.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:   url('../fonts/Aeonik Pro Regular.woff2') format('woff2'),
+  url('../fonts/Aeonik Pro Regular.woff') format('woff'),
+  url('../fonts/Aeonik Pro Regular.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:   url('../fonts/Aeonik Pro Regular Italic.woff2') format('woff2'),
+  url('../fonts/Aeonik Pro Regular Italic.woff') format('woff'),
+  url('../fonts/Aeonik Pro Regular Italic.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:   url('../fonts/Aeonik Pro Medium.woff2') format('woff2'),
+  url('../fonts/Aeonik Pro Medium.woff') format('woff'),
+  url('../fonts/Aeonik Pro Medium.ttf') format('truetype'),
+}

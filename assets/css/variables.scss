@@ -1,0 +1,39 @@
+$ff: 'Aeonik Pro', sans-serif;
+$lh: 1.2;
+$wh: #ffffff;
+$bl: #201d17;
+$yellow: #fff555;
+$brown: rgb(89, 79, 60);
+$gray: rgb(245, 245, 245);
+$grad-bl: linear-gradient(180.00deg, rgb(32, 29, 23),rgb(70, 67, 61) 100%);
+$grad-yellow: linear-gradient(180.00deg, rgb(255, 245, 85),rgb(232, 193, 133) 100%);
+$grad-gray: linear-gradient(180.00deg, rgb(245, 245, 245),rgba(245, 245, 245, 0) 129.412%);
+$b-r: calc(100vw * 0.005859);
+$p-calc: 3.125vw;
+$fz-text: 1.015625vw;
+$fz-16: 0.625vw;
+$fz-18: 0.7vw;
+$fz-26: 1.015625vw;
+$fz-24: 0.9375vw;
+$fz-30: 1.17vw;
+$fz-34: 1.328vw;
+$fz-40: 1.5625vw;
+$fz-42: 1.64vw;
+$fz-50: 1.95vw;
+
+
+@mixin center-pos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
+$maxWidth: 1920;
+@mixin adaptive-font($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 375;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 375px) / #{$maxWidth}));
+}
